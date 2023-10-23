@@ -1,0 +1,31 @@
+.apply {
+  width: 1236px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 125px;
+  padding-top: 2px;
+}
+
+.title {
+  color: #EE4D47;
+  margin-bottom: 44px;
+  letter-spacing: 2.4px;
+  line-height: 40px;
+}
+
+.container {
+  padding-top: 104px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: 67px;
+  width: 455px;
+}
+
+.illustration {
+  margin-right: 57px;
+}

@@ -1,0 +1,62 @@
+.faq {
+  background-image: url('/img/rectangle_9.png');
+  background-position: 100% top;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  margin-bottom: 177px;
+  margin-left: 240px;
+  padding-bottom: 110px;
+}
+
+.header {
+  display: flex;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  padding-top: 227px;
+}
+
+.title {
+  color: #EE4D47;
+  margin-bottom: 49px;
+  letter-spacing: 2.4px;
+  line-height: 40px;
+}
+
+.text {
+  color: #402B2B;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.illustration {
+  padding-top: 98px;
+  position: absolute;
+  top:0;
+  right: 175px;
+}
+
+.button {
+  width: 550px;
+  height: 90px;
+  background-color: #F9CEC8;
+  border-radius: 10px;
+  margin-left: 572px;
+  margin-top: 22.84px;
+}
+
+.button span {
+  font-weight: 700;
+  color: #ed4d47;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+  white-space: nowrap;
+}
