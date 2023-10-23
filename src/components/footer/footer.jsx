@@ -9,13 +9,18 @@ export default function Footer() {
         <div className={styles['footer-container']}>
           <img className={styles.illustration} src="/img/illustration4.svg" />
           <ContactForm />
+          <div className={styles['text-container']}>
+            <p className={styles.text}>
+              We provide traffic management consultants&nbsp;so you get started quickly,&nbsp;contact us for a quote<br /> today!
+            </p>
+          </div>
 
-          <nav className='navigation'>
+          <nav className={styles.navigation}>
             <Logo />
             <ul className={styles['navigation-list']}>
-              <li className='navigation-item'><a>ABOUT</a></li>
-              <li className='navigation-item'><a>HOW TO</a></li>
-              <li className='navigation-item'><a>FAQS</a></li>
+              <li className={styles['navigation-item']}><a>ABOUT</a></li>
+              <li className={styles['navigation-item']}><a>HOW TO</a></li>
+              <li className={styles['navigation-item']}><a>FAQS</a></li>
             </ul>
           </nav>
 
@@ -23,14 +28,15 @@ export default function Footer() {
             <div className="copyright">
               &copy; Copyright @ 2019
             </div>
-            <div className={styles.social}>
-              <a href="#" className={styles.link}><img src="/img/social/i.svg" alt="Instagram" /></a>
-              <a href="#" className={styles.link}><img src="/img/social/f.svg" alt="Facebook" /></a>
-              <a href="#" className={styles.link}><img src="/img/social/t.svg" alt="Twitter" /></a>
 
-            </div>
           </div>
         </div>
+      </div>
+      <div className={styles.social}>
+        <a href="#" className={styles.link}><img src="/img/social/i.svg" alt="Instagram" /></a>
+        <a href="#" className={styles.link}><img src="/img/social/f.svg" alt="Facebook" /></a>
+        <a href="#" className={styles.link}><img src="/img/social/t.svg" alt="Twitter" /></a>
+
       </div>
     </footer>
   )

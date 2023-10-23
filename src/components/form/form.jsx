@@ -8,18 +8,14 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Добавьте здесь логику для отправки данных формы на сервер
-    // Например, можно использовать fetch API или библиотеки для отправки данных на сервер
+    
   };
 
   return (
     <div className={styles.container}>
-      <p className={styles.text}>
-        We provide traffic management consultants&nbsp;so you get started quickly,&nbsp;contact us for a quote<br /> today!
-      </p>
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className="form-group">
-          <label className={styles.label} htmlFor="name">Имя:</label>
+          <label className={styles.label} htmlFor="name">Name</label>
           <input
             className={styles.input}
             type="text"
@@ -31,7 +27,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-group">
-          <label className={styles.label} htmlFor="email">Email:</label>
+          <label className={styles.label} htmlFor="email">Email address</label>
           <input
             className={styles.input}
             type="email"
