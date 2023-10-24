@@ -14,7 +14,7 @@ export default function ContactForm() {
   return (
     <div className={styles.container}>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className={styles['form-group']}>
           <label className={styles.label} htmlFor="name">Name</label>
           <input
             className={styles.input}
@@ -26,7 +26,7 @@ export default function ContactForm() {
             required
           />
         </div>
-        <div className="form-group">
+        <div className={styles['form-group']}>
           <label className={styles.label} htmlFor="email">Email address</label>
           <input
             className={styles.input}
@@ -38,7 +38,7 @@ export default function ContactForm() {
             required
           />
         </div>
-        <button className={styles.button} type="submit">Отправить</button>
+        <button className={styles.button} type="submit">GET STARTED</button>
       </form>
       
     </div>
