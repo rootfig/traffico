@@ -5,7 +5,7 @@ import Accordion from "../accordion/accordion"
 
 export default function Faq() {
   return (
-    <section className={styles.faq}>
+    <section id='faqs' className={styles.faq}>
       <header className={styles.header}>
         <div className={styles.container}>
           <h2 className={styles.title}>FAQ</h2>

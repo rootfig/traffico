@@ -3,7 +3,7 @@ import fonts from '@/app/fonts'
 
 export default function About() {
   return (
-    <section className={`${fonts.rubik.className} ${styles.about}`}>
+    <section id='about' className={`${fonts.rubik.className} ${styles.about}`}>
           <div className={styles.container}>
             <h2 className={` ${styles.title}`}>ABOUT US</h2>
             <p className={`${fonts.rubik.className} ${styles.description}`}>

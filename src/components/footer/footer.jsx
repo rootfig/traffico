@@ -5,7 +5,7 @@ import Social from '../social/social'
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer id='contact' className={styles.footer}>
       <div className='wrapper'>
         <div className={styles['footer-container']}>
           <img className={styles.illustration} src="/img/illustration4.svg" />

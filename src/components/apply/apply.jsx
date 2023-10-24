@@ -3,7 +3,7 @@ import fonts from '@/app/fonts'
 
 export default function Apply() {
   return (
-    <section className={`${fonts.rubik.className} ${styles.apply}`}>
+    <section id='how-to' className={`${fonts.rubik.className} ${styles.apply}`}>
         <div className={styles.container}>
           <h2 className={styles.title}>HOW TO APPLY</h2>
           <p className={styles.text}>

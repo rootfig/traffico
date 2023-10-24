@@ -17,10 +17,10 @@ export default function Header() {
         <nav className={styles.navigation}>
           <Logo />
           <ul className={styles['navigation-list']}>
-            <li className={styles['navigation-item']}><a>ABOUT</a></li>
-            <li className={styles['navigation-item']}><a>HOW TO</a></li>
-            <li className={styles['navigation-item']}><a>FAQS</a></li>
-            <li className={styles['navigation-item']}><a>CONTACT US</a></li>
+            <li className={styles['navigation-item']}><a href='#about'>ABOUT</a></li>
+            <li className={styles['navigation-item']}><a href='#how-to'>HOW TO</a></li>
+            <li className={styles['navigation-item']}><a href='#faqs'>FAQS</a></li>
+            <li className={styles['navigation-item']}><a href='#contact'>CONTACT US</a></li>
           </ul>
         </nav>
         <h1 className={`${font.className} ${styles.title}`}>Your awesome traffic permit consultant.</h1>
