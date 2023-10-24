@@ -19,9 +19,9 @@ export default function Footer() {
           <nav className={styles.navigation}>
             <Logo />
             <ul className={styles['navigation-list']}>
-              <li className={styles['navigation-item']}><a>ABOUT</a></li>
-              <li className={styles['navigation-item']}><a>HOW TO</a></li>
-              <li className={styles['navigation-item']}><a>FAQS</a></li>
+              <li className={styles['navigation-item']}><a href='#about'>ABOUT</a></li>
+              <li className={styles['navigation-item']}><a href='#how-to'>HOW TO</a></li>
+              <li className={styles['navigation-item']}><a href='#faqs'>FAQS</a></li>
             </ul>
           </nav>
         </div>
