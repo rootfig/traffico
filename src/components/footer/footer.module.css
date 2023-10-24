@@ -76,12 +76,6 @@
   color: #FFF;
 }
 
-.social {
-  display:flex;
-  background-color: #FEF8F5;
-  list-style: none;
-}
-
 .image {
   width: 36px;
   height: 36px;
@@ -91,10 +85,3 @@
   transition: background-color 0.2s ease-in-out;
 }
 
-.social .social-link:hover {
-  transform: scale(1.2);
-}
-
-.social .social-link:hover img {
-  background-color: white;
-}

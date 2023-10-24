@@ -1,0 +1,35 @@
+.social {
+  margin: 0 auto;
+  width: 1400px;
+  background-color: #FEF8F5;
+  list-style: none;
+}
+
+.container {
+  margin-left: 240px;
+  margin-right: 135px;
+  margin-top: 60px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+}
+
+.social-list li {
+  margin-right: 30px;
+}
+
+.social-list li:last-child {
+  margin-right: 0;
+}
+
+.social .social-link:hover {
+  transform: scale(1.2);
+}
+
+.social .social-link:hover img {
+  background-color: white;
+}

@@ -1,6 +1,7 @@
 import styles from '@/components/footer/footer.module.css'
 import ContactForm from '../form/form'
 import Logo from '../logo/logo'
+import Social from '../social/social'
 
 export default function Footer() {
   return (
@@ -23,21 +24,10 @@ export default function Footer() {
               <li className={styles['navigation-item']}><a>FAQS</a></li>
             </ul>
           </nav>
-
-          <div className='foo'>
-            <div className="copyright">
-              &copy; Copyright @ 2019
-            </div>
-
-          </div>
         </div>
+        <Social />
       </div>
-      <div className={styles.social}>
-        <a href="#" className={styles.link}><img src="/img/social/i.svg" alt="Instagram" /></a>
-        <a href="#" className={styles.link}><img src="/img/social/f.svg" alt="Facebook" /></a>
-        <a href="#" className={styles.link}><img src="/img/social/t.svg" alt="Twitter" /></a>
 
-      </div>
     </footer>
   )
 }
