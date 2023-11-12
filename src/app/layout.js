@@ -1,8 +1,6 @@
-import { Rubik } from 'next/font/google'
+import fonts from '@/app/fonts'
 import './globals.css'
 import './style.css'
-
-const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Traffico',
@@ -12,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={rubik.className}>{children}</body>
+      <body className={fonts.rubik.className}>{children}</body>
     </html>
   )
 }
