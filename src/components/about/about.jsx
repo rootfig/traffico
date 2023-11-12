@@ -1,5 +1,6 @@
-import styles from'@/components/about/about.module.css'
+import styles from'@/components/about/About.module.css'
 import fonts from '@/app/fonts'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -18,7 +19,12 @@ export default function About() {
             </div>
             
           </div>
-          <img className={styles.illustration} src='./img/illustration.svg' />
+          <Image 
+            className={styles.illustration} 
+            src='./img/illustration.svg' 
+            width={575}
+            height={480}
+            />
         </section>
   )
 }

@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/fonts": ["./src/app/fonts.js"],
+      "@localFonts": ["./public/fonts/*"],
+      "@/img": ["./public/img/"]
     }
   }
 }
